@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven-Default'
+        maven 'Maven-local'
     }
     parameters {
         string(name: 'myParameter', defaultValue: 'myVal', description: 'Enter Parameter value?')
